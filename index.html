@@ -13,17 +13,13 @@
   <body>
     <div class="box-signin">
       <div class="welcome">
-          <img src="./img/spacelogo.svg" alt="SpecLogo" class="logo" />
-        <img
-          src="./img/rubberring.png"
-          alt="rubberring1"
-          class="rubberring1"
-        />
+        <img src="./img/spacelogo.svg" alt="SpecLogo" class="logo" />
+        <img src="./img/rubberring.png" alt="rubberring1" class="rubberring1" />
         <img src="./img/spaceman.png" alt="spaceman" class="spaceman" />
-        <div class="title-welcome fontTitle" style="margin-top: 48px">
+        <div class="first-title title-welcome font-title">
           Welcome aboard my friend
         </div>
-        <div class="title-welcome fontSmall">
+        <div class="title-welcome font-small">
           just a couple of clicks and we start
         </div>
         <img src="./img/pager.png" alt="pager" class="pager" />
@@ -32,113 +28,58 @@
         <div class="top-box">
           <img src="./img/spacelogo.svg" alt="SpecLogo" class="logo-from" />
         </div>
-        <p class="fontTitle position-welcome" style="margin-top: 31px; margin-bottom: 40px">
-          Welcome
-        </p>
-        <div class="fontrelative">
-          <input class="fillInput" placeholder="Email" />
-          <i class="far fa-envelope"></i>
+        <p class="font-title position-welcome">Welcome</p>
+        <div class="font-relative">
+          <input class="fill-input" placeholder="Email" type="text" name="email" autocomplete="email"/>
+          <i class="far fa-envelope input-icon-first"></i>
         </div>
-        <div class="fontrelative">
-          <input class="fillInput" placeholder="Password" />
-          <i class="fas fa-lock"></i>
-          <i class="far fa-eye" style="left: auto; right: 15%"></i>
+        <div class="font-relative">
+          <input class="fill-input" placeholder="Password" type="password" name="password" autocomplete="current-password"/>
+          <i class="fas fa-lock input-icon-first"></i>
+          <i class="far fa-eye input-icon-second"></i>
         </div>
 
-        <a
-          href="#"
-          class="fontSmall"
-          style="
-            color: #6f74dd;
-            margin-top: 8px;
-            margin-right: 13%;
-            margin-left: auto;
-            text-decoration: none;
-          "
-        >
-          Forgot Password?
-        </a>
+        <a href="#" class="font-small forget-password"> Forgot Password? </a>
 
+        
+
+        <div class="box-button">
         <button
-          class="buttonLong"
-          style="margin-top: 32px; color: white; background-color: #3949ab"
+          class="button-long button-login"
         >
           Log in
         </button>
-
-        <div
-          style="
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-          "
-        >
-          <div
-            style="
-              display: flex;
-              flex-direction: row;
-              width: 45%;
-              height: auto;
-              margin-left: auto;
-              margin-right: auto;
-            "
-          >
-            <div class="dividingLine"></div>
-            <p class="fontSmall">or</p>
-            <div class="dividingLine"></div>
+          <div class="box-dividing">
+            <div class="dividing-line"></div>
+            <p class="font-small">or</p>
+            <div class="dividing-line"></div>
           </div>
 
-          <div
-            style="
-              display: flex;
-              width: 74%;
-              height: auto;
-              margin-left: auto;
-              margin-right: auto;
-            "
-          >
-            <button class="buttonShort" style="margin-right: 4px">
+          <div class="box-button-otherlogin">
+            <button class="button-short button-left">
               <img
-                src="./img/google.png"
-                style="margin-right: 8px; margin-left: auto"
+                src="./img/google.png" class="icon-button"
               />
-              <span style="margin-right: auto">Google</span>
+              <span class="text-button">Google</span>
             </button>
 
-            <button class="buttonShort" style="margin-left: 4px">
+            <button class="button-short button-right" >
               <img
-                src="./img/gitlab.png"
-                style="margin-right: 8px; margin-left: auto"
+                src="./img/gitlab.png" class="icon-button"
               />
-              <span style="margin-right: auto">GitLab</span>
+              <span class="text-button">GitLab</span>
             </button>
           </div>
           <p
-            class="fontSmall"
-            style="
-              margin-top: 24px;
-              margin-left: auto;
-              margin-right: auto;
-              display: flex;
-            "
+            class="font-small text-center"
           >
             Have no account yet?
           </p>
           <button
-            class="buttonLong"
-            style="
-              margin-top: 16px;
-              color: #3949ab;
-              background-color: white;
-              margin-left: auto;
-              margin-right: auto;
-            "
-          >
+            class="button-long button-register" >
             Registration
           </button>
         </div>
-        
       </div>
     </div>
   </body>
