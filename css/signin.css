@@ -251,12 +251,14 @@ textarea {
     border: 0px;
   }
   .welcome {
+    z-index: 1;
     position: absolute;
     width: 100%;
     background-color: white;
     opacity: 0;
   }
   .form {
+    z-index: 2;
     border-radius: 0%;
     width: 100%;
   }
