@@ -245,7 +245,7 @@ textarea {
   position: relative;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .box-signin {
     flex-direction: column;
     border: 0px;
