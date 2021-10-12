@@ -5,7 +5,9 @@ body {
   background-color: white;
   height: 100%;
 }
-input[type='email'],input[type='password'],textarea {
+input[type="email"],
+input[type="password"],
+textarea {
   font-size: 16px;
 }
 
@@ -196,26 +198,26 @@ input[type='email'],input[type='password'],textarea {
   display: flex;
   flex-direction: column;
 }
-.button-left{
+.button-left {
   margin-right: 4px;
 }
-.button-right{
+.button-right {
   margin-left: 4px;
 }
-.icon-button{
-  margin-right: 8px; 
+.icon-button {
+  margin-right: 8px;
   margin-left: auto;
 }
-.text-button{
+.text-button {
   margin-right: auto;
 }
-.text-center{
+.text-center {
   margin-top: 24px;
-              margin-left: auto;
-              margin-right: auto;
-              display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
-.button-register{
+.button-register {
   margin-top: 16px;
   color: #3949ab;
   background-color: white;
