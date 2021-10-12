@@ -42,7 +42,19 @@ textarea {
   width: 50%;
   background-color: #3949ab;
   border-radius: 0px 24px 24px 0px;
+  align-items: center;
+  color: white;
 }
+.spaceman {
+  width: 221px;
+  height: 221px;
+  margin-top: 108px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .sign-up-form {
   display: flex;
   flex-direction: column;
@@ -105,6 +117,9 @@ textarea {
 }
 .font-black{
   color: #000;
+}
+.font-margin-8px{
+  margin: 8px;
 }
 
 .font-title {
